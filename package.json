@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jasmine"
   },
-  "name": "dubbleoseven",
+  "name": "doubleoseven",
   "version": "0.1.0",
   "main": "./src/Bond.js"
 }
