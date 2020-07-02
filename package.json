@@ -6,5 +6,6 @@
     "test": "jasmine"
   },
   "name": "dubbleoseven",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "main": "./src/Bond.js"
 }
