@@ -1,4 +1,4 @@
-# dubbleoseven
+# doubleoseven
 Javascript library for events-that-behave-like-promises
 
 ## Goal
@@ -40,8 +40,8 @@ to wrap your event resolution in promise-like chains. Awesome!
 ## Installation
 
 ```sh
-$ npm i dubbleoseven
-$ yarn add dubbleoseven
+$ npm i doubleoseven
+$ yarn add doubleoseven
 ```
 
 Choose your package manager; we prefer `yarn` but `npm` is also widely used. It
@@ -52,7 +52,7 @@ Simply return a new instance of the imported class whenever you want a function
 to behave in this fashion. E.g.:
 
 ```js
-import Bond from 'dubbleoseven';
+import Bond from 'doubleoseven';
 
 class MyService {
 
