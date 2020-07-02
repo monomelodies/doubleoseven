@@ -59,6 +59,8 @@ class MyService {
     getData() {
         return new Bond((resolve, reject) => {
             // Do your stuff and call either resolve or reject with some value
+            EventEmitter.on('someEvent', value => resolve(value));
+            EventEmitter.on('someOtherEvent', value => reject(value));
         });
     }
 
@@ -74,6 +76,6 @@ MyService.getData().then(result => {
 }).then(otherValue => {
     // do something else...
     return whateverYouWant;
-});
+}).catch(reason => console.error(reason));
 ```
 
