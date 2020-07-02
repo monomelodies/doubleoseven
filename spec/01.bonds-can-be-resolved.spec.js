@@ -25,7 +25,7 @@ describe("Bonds", () => {
             resolve(1);
         });
         promise.then(result => ++result).then(result => {
-            expert(result).toEqual(2);
+            expect(result).toEqual(2);
         });
     });
     it("can catch errors if they occur", () => {
