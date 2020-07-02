@@ -1,11 +1,11 @@
 {
+  "name": "doubleoseven",
+  "version": "0.2.0",
   "devDependencies": {
     "jasmine": "^3.5.0"
   },
   "scripts": {
     "test": "jasmine"
   },
-  "name": "doubleoseven",
-  "version": "0.1.1",
   "main": "./src/Bond.js"
 }
