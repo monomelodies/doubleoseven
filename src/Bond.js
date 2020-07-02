@@ -58,7 +58,7 @@ Bond.prototype.finally = function (ack) {
  */
 Bond.prototype.resolve = function (result) {
     if (isThenable(result)) {
-        result.then(this.resolve);
+        result.then(this.resolve.bind(this));
         return;
     }
     wm.get(this).results.push(result);
