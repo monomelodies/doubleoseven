@@ -79,3 +79,7 @@ MyService.getData().then(result => {
 }).catch(reason => console.error(reason));
 ```
 
+## Differences from ES6 promises
+The static `all`, `allSettled` and `race` methods are not implemented, since
+they don't really make sense in the context of multiple resolutions.
+
