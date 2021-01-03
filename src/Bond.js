@@ -153,7 +153,7 @@ function processQueue() {
  * @return bool
  */
 function isThenable(value) {
-    return (typeof value.then).toLowerCase() == 'function';
+    return value && value.then && (typeof value.then).toLowerCase() == 'function';
 }
 
 /** }}} */
