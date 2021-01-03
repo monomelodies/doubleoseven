@@ -1,6 +1,6 @@
 {
   "name": "doubleoseven",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "devDependencies": {
     "jasmine": "^3.5.0"
   },
